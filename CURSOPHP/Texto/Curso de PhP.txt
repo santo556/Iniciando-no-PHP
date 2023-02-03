@@ -1,0 +1,6 @@
+O PHP por dentro
+    <?php   ?> -> super tag PHP
+    <?      ?> -> short open tag
+    <%      %> -> ASP tag
+    <?=     ?> -> short tag PHP
+    
