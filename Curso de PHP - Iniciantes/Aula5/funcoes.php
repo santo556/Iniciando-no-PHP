@@ -8,7 +8,9 @@
 </head>
 <body>
     <?php
-        
+        $v1 = $_GET ["x"];
+        $v2 = $_GET ["y"];
+        echo "<h2>Valores recebidos: $v1 e $v2</h2>";
     ?>
 </body>
 </html>
