@@ -11,6 +11,7 @@
         $v1 = $_GET ["x"];
         $v2 = $_GET ["y"];
         echo "<h2>Valores recebidos: $v1 e $v2</h2>";
+        echo "O valor absoluto de $v2 é " . abs($v2);
     ?>
 </body>
 </html>
