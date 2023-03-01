@@ -64,6 +64,7 @@
         $canal = "Curso em Video";
         $ano = date('Y');
         echo <<< 'TESTE'
+                Olá Novo Mundo!
             Olá galera do $canal!
                     </br>Tudo bem com vocês?
                 </br>Como está sendo esse ano de $ano?
