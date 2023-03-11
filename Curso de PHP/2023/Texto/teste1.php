@@ -15,7 +15,7 @@
     ?>
     <h2>Minha idade</h2>
     <?php
-        $idade = 41;
+        $idade = 42;
         echo "<p>Minha idade é $idade</p>";
     ?>
 </body>

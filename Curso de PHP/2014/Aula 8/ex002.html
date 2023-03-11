@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Integração de formulários em PHP</title>
+</head>
+<body>
+    <header>
+        <h1>Apresente-se para nós</h1>
+    </header>
+    <section>
+            <form action="dados.php" method="get">
+                Nome:<input type="text" name="nome">
+                Ano de Nascimento:<input type="number" name="ano" id="idade">
+                <fieldset>
+                    <legend>SEXO:</legend>
+                    <input type="radio" name="sexo" id="masc" value="homem">
+                    <label for="masc">Masculino</label>
+                    <input type="radio" name="sexo" id="fem" value="mulher">
+                    <label for="fem">Feminino</label>
+                    <input type="radio" name="sexo" id="outras" value="outra">
+                    <label for="outras">Outras</label>
+                </fieldset>
+                <input type="submit" value="Enviar">
+            </form>
+    </section>
+</body>
+</html>

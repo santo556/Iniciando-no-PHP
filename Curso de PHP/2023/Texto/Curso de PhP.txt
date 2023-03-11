@@ -29,7 +29,7 @@ Variáveis e constantes em PHP
  		5° -> < Aceita carcteres acentuados como á, õ, ç >
  		6° -> < A linguagem é case sensitive em relação aos nomes >
  		7° -> < Nomes especiais como $this não podem ser usados >
- -----------------------------------------------------------------------------------
+ --------------------------------------------------------------------
  	EXEMPLO 001
  		$nome = "Pedro";
  		echo "É verdade que seu nome é $nome ?";
@@ -57,28 +57,13 @@ Variáveis e constantes em PHP
  	   	   Subtração 
 ------------------------------------------------------------------
 Tipos Primitivos do PHP
-    Catogorias de tipos primitivos
-        1°-> escalares
-            Silva
-            STRING => "São sequência de letras, números e símbolos, sempre representadas entre aspas."
-            34
-            INT ou INTEGER => "um valor numérico Inteiro, aquele
-            que vem sem a parte decimal."
-            -------------------------------------------------------
-            FLOAT, DOUBLE OU REAL => "(real deixou de existir) um valor numarico Real, que vem com a a parte decimal, depois do ponto flutuante."
-            -------------------------------------------------------
-            BOOL ou BOOLEAN => "um valor lógico ou Booleano, que aceita apenas os valores verddadeiro ou falso (true ou false)."
-        2°-> compostos
-            
-        3°-> especiais
----------------------------------------------------------------------
-Tipos Primitivos do PHP
     Dez Exemplo de valores
-    > "RJ"-> STRING     > -19-> int
-    > "3.1415"-> double > "false"-> string   
-    > "17"-> int        > 0x1A-> int 
-    > "true"-> bool     > 3e2->  double  
-    > ""-> string       > "1024"-> string
+        > "RJ"-> STRING     > -19-> int
+        > "3.1415"-> double > "false"-> string   
+        > "17"-> int        > 0x1A-> int 
+        > "true"-> bool     > 3e2->  double  
+        > ""-> string       > "1024"-> string
+-------------------------------------------------------------------
     Catogorias de tipos primitivos
         1°-> Tipos primitivos escalares
             Silva
@@ -87,12 +72,12 @@ Tipos Primitivos do PHP
             INT ou INTEGER => "um valor numérico Inteiro, aquele
             que vem sem a parte decimal."
             -------------------------------------------------------
-            FLOAT, DOUBLE OU REAL => "(real deixou de existir) um valor numarico Real, que vem com a a parte decimal, depois do ponto flutuante."
+            FLOAT, DOUBLE OU REAL => "(real deixou de existir) um valor numarico Real, que vem com a a parte decimal, depois do ponto flutuante."(A nomecratura real não exite mais.)
             -------------------------------------------------------
             BOOL ou BOOLEAN => "um valor lógico ou Booleano, que aceita apenas os valores verddadeiro ou falso (true ou false)."
         2°-> Tipos primitivos compostos
              array -> 
-             objecto ->  
+             objecto ->   
         3°-> Tipos primitivos especiais
              null -> 
              resouce ->
@@ -137,3 +122,4 @@ Manipulação de strings com PHP
                         3°->  \\ Barra invertida
                         4°->   \$ Sinal de cifrão
                         5°->   \u{} Codepoint Unicode
+Obtendo dados de formularios com PHP(parte 1)

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tipos primitivos e PHP</title>
-     <style>
+    <style>
     * {
         margin: 0;
         padding: 0;
@@ -35,9 +36,10 @@
     }
     </style>
 </head>
+
 <body>
     <h1>Teste de tipos primitivos</h1>
-     <div>
+    <div>
         <?php
         // 0x = hexadecimal -b = binário 0 = Octal
         //$num = 0b1011;
@@ -71,4 +73,5 @@
     ?>
     </div>
 </body>
+
 </html>
